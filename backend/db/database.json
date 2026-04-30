@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": "12a3344b-6868-40f3-a525-52ba63745550",
+      "name": "Dev",
+      "email": "dev1234@gmail.com",
+      "password": "$2a$10$iANjQWH9JFz/t7yvMXfKBOvW/8FAYvQFblbSiXmNht5uM5GcHtH2S",
+      "role": "admin",
+      "createdAt": "2026-04-30T21:07:02.141Z"
+    },
+    {
+      "id": "f292c4de-7aeb-48b4-a057-399afb7a93aa",
+      "name": "Sam",
+      "email": "sam1234@gmail.com",
+      "password": "$2a$10$Pg6/gu0K5k98WqmQiPabheuiFynapxwfxGN8ivFv96RDovAxYWY4W",
+      "role": "member",
+      "createdAt": "2026-04-30T21:08:04.004Z"
+    },
+    {
+      "id": "9afc05eb-479b-4839-b3af-269f561a71e8",
+      "name": "Priya",
+      "email": "priya1234@gmail.com",
+      "password": "$2a$10$ZQNgnqXIcQoqsQ8NO941GulxlGkyzeXWmkVpFIWLDD6qvNN.IRIAa",
+      "role": "member",
+      "createdAt": "2026-04-30T21:11:18.585Z"
+    },
+    {
+      "id": "54d08b08-a228-4e8e-a07e-65bd35da97ee",
+      "name": "Rohit",
+      "email": "rohit123@gmail.com",
+      "password": "$2a$10$Zo1Q/HaoWTfFbHOC8ybaX.2BXmxl6zMyAwx5iySlts.SpQpdeSsOu",
+      "role": "member",
+      "createdAt": "2026-04-30T21:11:52.377Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "f776ba3c-aaa8-40cc-baac-850eda24261f",
+      "name": "Website Development",
+      "description": "Build and deploy the company website",
+      "createdBy": "12a3344b-6868-40f3-a525-52ba63745550",
+      "createdAt": "2026-04-30T21:13:46.154Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "44110f0b-08d6-4fc0-a14e-72630fe125e3",
+      "title": "Design Homepage UI",
+      "description": " Create responsive homepage with modern design\n",
+      "projectId": "f776ba3c-aaa8-40cc-baac-850eda24261f",
+      "assignedTo": "9afc05eb-479b-4839-b3af-269f561a71e8",
+      "deadline": "2026-05-03",
+      "priority": "medium",
+      "status": "todo",
+      "createdBy": "12a3344b-6868-40f3-a525-52ba63745550",
+      "createdAt": "2026-04-30T21:16:06.582Z"
+    },
+    {
+      "id": "4710ef82-8490-4aff-be14-b6c30c401da1",
+      "title": "Build Backend APIs",
+      "description": " Develop REST APIs for user authentication and data management",
+      "projectId": "f776ba3c-aaa8-40cc-baac-850eda24261f",
+      "assignedTo": "54d08b08-a228-4e8e-a07e-65bd35da97ee",
+      "deadline": "2026-05-05",
+      "priority": "high",
+      "status": "todo",
+      "createdBy": "12a3344b-6868-40f3-a525-52ba63745550",
+      "createdAt": "2026-04-30T21:16:59.337Z"
+    },
+    {
+      "id": "c71aef28-0d0b-4d36-ab9e-b047ed157820",
+      "title": "Testing and Bug Fixing",
+      "description": " Test all features and fix reported bugs",
+      "projectId": "f776ba3c-aaa8-40cc-baac-850eda24261f",
+      "assignedTo": "f292c4de-7aeb-48b4-a057-399afb7a93aa",
+      "deadline": "2026-05-06",
+      "priority": "medium",
+      "status": "todo",
+      "createdBy": "12a3344b-6868-40f3-a525-52ba63745550",
+      "createdAt": "2026-04-30T21:17:42.466Z"
+    }
+  ],
+  "projectMembers": [
+    {
+      "projectId": "f776ba3c-aaa8-40cc-baac-850eda24261f",
+      "userId": "12a3344b-6868-40f3-a525-52ba63745550"
+    },
+    {
+      "projectId": "f776ba3c-aaa8-40cc-baac-850eda24261f",
+      "userId": "f292c4de-7aeb-48b4-a057-399afb7a93aa"
+    },
+    {
+      "projectId": "f776ba3c-aaa8-40cc-baac-850eda24261f",
+      "userId": "9afc05eb-479b-4839-b3af-269f561a71e8"
+    },
+    {
+      "projectId": "f776ba3c-aaa8-40cc-baac-850eda24261f",
+      "userId": "54d08b08-a228-4e8e-a07e-65bd35da97ee"
+    }
+  ]
+}
